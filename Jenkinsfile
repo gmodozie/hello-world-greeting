@@ -1,4 +1,4 @@
-node('docker') {
+node('jenkins_slave') {
 stage('Poll') {
 checkout scm
 }
